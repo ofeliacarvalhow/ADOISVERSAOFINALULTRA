@@ -51,7 +51,7 @@ if pagina_selecionada == "Palavras mais frequentes":
 
         if tipo_grafico != "Nenhum":
             df_filtrado = df_noticias
-            if modo_analise == "Por dia":
+            if modo_de_analise == "Por dia":
                 datas_disponiveis = sorted(df_noticias['Data'].dt.date.unique())
                 data_escolhida = st.selectbox("Escolha uma data disponível:", datas_disponiveis)
                 df_filtrado = df_noticias[df_noticias['Data'].dt.date == data_escolhida]
