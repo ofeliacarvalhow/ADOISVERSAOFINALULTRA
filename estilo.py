@@ -6,7 +6,7 @@ def estilo_chavoso():
     st.markdown("""
     <style>
         .stApp {
-            background-image: url('https://github.com/ofeliacarvalhow/ADOISVERSAOFINALULTRA/blob/2baf622ac142ffbd75586de9fcd2e90f6ff50a72/fundo.jpg');
+            background-image: url('https://raw.githubusercontent.com/ofeliacarvalhow/ADOISVERSAOFINALULTRA/main/fundo.jpg');
             background-size: cover;
             background-attachment: fixed;
         }
